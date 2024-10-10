@@ -1,15 +1,15 @@
 [
     {
-        "school":"[Rochester Institute of Technology](https://srsischool.in/)",
-        "degree":"Bachelor of Science",
-        "major":"Management Information Systems",
+        "school":"[srsi matric higher secondary school](https://srsischool.in/)",
+        "degree":"grade 12",
+        "major":"computer science",
         "notes":"Beta Gamma Signma, High Honors",
-        "range":"2006 - 2008"
+        "range":"2016 - 2023"
     },
     {
-        "school":"Clinton Community College",
-        "degree":"Associate of Applied Science",
-        "major":"Computer Information Systems",
-        "range":"2004 - 2006"
+        "school":"[Ramakrishna mission vidyalaya](https://srkv.org/)",
+        "degree":"Bachelor of information technology",
+        "major":"Digital innovation",
+        "range":"2023 - 2026"
     }
 ]
