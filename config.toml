@@ -33,7 +33,7 @@ name = "GitHub"
 
 [[params.handles]]
 link = "https://profile.indeed.com/p/yurenb-qrx6k07"
-name = "INDEED"
+name = "Indeed"
 
 [outputs]
 home = ["HTML", "JSON"]
