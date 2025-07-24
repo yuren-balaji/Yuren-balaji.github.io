@@ -1,4 +1,4 @@
-# sathishk.github.io
+# yuren-balaji.github.io
 Profile Page Sample
 
 ## Setup
