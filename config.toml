@@ -24,7 +24,7 @@ sections = ["skills","publications","contributions","experience","education","bl
 trackerID = "XX-123446-01"
 
 [[params.handles]]
-link = "https://www.linkedin.com/in/yuren-balaji-88173832b"
+link = "https://www.linkedin.com/in/yuren-balaji"
 name = "LinkedIn"
 
 [[params.handles]]
