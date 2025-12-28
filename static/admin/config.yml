@@ -29,6 +29,8 @@ collections: # A list of collections the CMS should be able to edit
       - {label: "Publish Date", name: "date", widget: "datetime"}
       - {label: "Tags", name: "tags", widget: "list", required: false}
       - {label: "Body", name: "body", widget: "markdown"}
+        - { label: "Tags", name: "tags", widget: "list", default: [] }
+        - { label: "Cover Image", name: "cover", widget: "image", required: false }
        
   - name: "Projects" # Used in routes, ie.: /admin/collections/:slug/edit
     label: "Projects" # Used in the UI, ie.: "New Post"
@@ -42,6 +44,8 @@ collections: # A list of collections the CMS should be able to edit
       - {label: "Project Image", name: image, widget: 'image' }
       - {label: "Brief description", name: "description", widget: "string"}
       - {label: "Tags", name: "tags", widget: "list", required: false}
+        - { label: "Project URL", name: "url", widget: "string", required: false }
+        - { label: "Image", name: "image", widget: "image", required: false }
       - {label: "Fun Fact or Stat", name: "fact", widget: "string", default: "used by 20% of Fortune 500 companies!", required: false}
       - {label: "weight (lower get more visibility)", name: "weight", widget: "number", valueType: float, step: 10, min: 0, max: 1000}
       - {label: "Sitemap", name: "sitemap", widget: "object", field: {label: weight, name: weight, widget: "number", valueType: float, step: 0.1, min: 0.0, max: 1.0}}
@@ -76,6 +80,8 @@ collections: # A list of collections the CMS should be able to edit
       - {label: "Project Image", name: image, widget: 'image' }
       - {label: "Brief description", name: "description", widget: "string"}
       - {label: "Tags", name: "tags", widget: "list", required: false}
+        - { label: "Date", name: "date", widget: "datetime", required: false }
+        - { label: "Link", name: "link", widget: "string", required: false }
       - {label: "Fun Fact or Stat", name: "fact", widget: "string", default: "used by 20% of Fortune 500 companies!", required: false}
       - {label: "weight (lower get more visibility)", name: "weight", widget: "number", valueType: float, step: 10, min: 0, max: 1000}
       - {label: "Sitemap", name: "sitemap", widget: "object", field: {label: weight, name: weight, widget: "number", valueType: float, step: 0.1, min: 0.0, max: 1.0}}
@@ -100,6 +106,11 @@ collections: # A list of collections the CMS should be able to edit
           - { label: 'PygmentCodeFences', name: 'PygmentsCodeFences', widget: 'boolean', required: false }
           - { label: 'PygmentCodeFencesGuessSyntax', name: 'PygmentsCodeFencesGuessSyntax', widget: 'boolean', required: false }
           - { label: 'PygmentCodeFencesGuessSyntax', name: 'PygmentsStyle', widget: 'string' }
+  logo_url: "/img/og-preview.png"
+  show_preview_links: true
+  editor:
+    preview: true
+    frame: true
           - label: 'Params'
             name: 'params'
             widget: 'object'

@@ -1,11 +1,31 @@
 title = "Yuren balaji"
-baseURL = "https://example.com/"
+
+baseURL = "https://yuren-balaji.github.io/"
 theme = "my-resume"
 languageCode = "en-us"
-PygmentsCodeFences = true
-PygmentsCodeFencesGuessSyntax = true
-PygmentsStyle = "monokai"
-enableGitInfo = false
+enableGitInfo = true
+paginate = 10
+summaryLength = 50
+
+# Modern meta tags
+[params.meta]
+description = "Modern portfolio of Yuren Balaji - Developer, Engineer, Creator."
+keywords = ["Yuren Balaji", "Portfolio", "Developer", "Engineer", "Projects", "Blog"]
+
+# Favicon and social preview
+[params]
+favicon = "/img/favicon.ico"
+ogImage = "/img/og-preview.png"
+twitterCard = "summary_large_image"
+
+# Modern color scheme and font
+primaryColor = "#2D3748"
+accentColor = "#38B2AC"
+fontFamily = "Inter, Arial, sans-serif"
+
+# Accessibility and performance
+enableAccessibility = true
+enableLazyLoading = true
 
 [params]
 address = "Coimbatore, India"
@@ -21,7 +41,7 @@ sections = ["skills","publications","contributions","experience","education","bl
 [params.google]
 
 [params.google.analytics]
-trackerID = "XX-123446-01"
+trackerID = "G-XXXXXXXXXX"
 
 [[params.handles]]
 link = "https://www.linkedin.com/in/yuren-balaji"
