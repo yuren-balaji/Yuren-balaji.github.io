@@ -7,35 +7,26 @@ enableGitInfo = true
 paginate = 10
 summaryLength = 50
 
-# Modern meta tags
-[params.meta]
-description = "Modern portfolio of Yuren Balaji - Developer, Engineer, Creator."
-keywords = ["Yuren Balaji", "Portfolio", "Developer", "Engineer", "Projects", "Blog"]
-
-# Favicon and social preview
-[params]
-favicon = "/img/favicon.ico"
-ogImage = "/img/og-preview.png"
-twitterCard = "summary_large_image"
-
-# Modern color scheme and font
-primaryColor = "#2D3748"
-accentColor = "#38B2AC"
-fontFamily = "Inter, Arial, sans-serif"
-
-# Accessibility and performance
-enableAccessibility = true
-enableLazyLoading = true
-
 [params]
 address = "Coimbatore, India"
-favicon = "/favicon.ico"
+favicon = "/img/favicon.ico"
 firstName = "Yuren"
 lastName = "Balaji"
 phone = "9994579137"
 showSocializations = true
 showContact = false
 sections = ["skills","publications","contributions","experience","education","blog"]
+ogImage = "/img/og-preview.png"
+twitterCard = "summary_large_image"
+primaryColor = "#2D3748"
+accentColor = "#38B2AC"
+fontFamily = "Inter, Arial, sans-serif"
+enableAccessibility = true
+enableLazyLoading = true
+
+[params.meta]
+description = "Modern portfolio of Yuren Balaji - Developer, Engineer, Creator."
+keywords = ["Yuren Balaji", "Portfolio", "Developer", "Engineer", "Projects", "Blog"]
 
 
 [params.google]
