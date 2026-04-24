@@ -1,0 +1,20 @@
+<section class="certifications">
+  <h2>Certifications</h2>
+  {{ $certs := index $.Site.Data "certifications" }}
+  {{ if $certs }}
+    <div class="certifications-list">
+      {{ range $certs }}
+        <div class="certification-item">
+          <h3>{{ .name }}</h3>
+          <p>{{ .description }}</p>
+          {{ if .badge }}
+            <img src="{{ .badge }}" alt="{{ .name }}" class="cert-badge">
+          {{ end }}
+          {{ if .proof }}
+            <a href="{{ .proof }}" target="_blank">View Credential</a>
+          {{ end }}
+        </div>
+      {{ end }}
+    </div>
+  {{ end }}
+</section>
