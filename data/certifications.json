@@ -4,13 +4,11 @@
 		"description": "AWS Academy Graduate - AWS Academy Cloud Foundations",
 		"badge":"https://images.credly.com/size/340x340/images/73e4a58b-a8ef-41a3-a7db-9183dd269882/image.png",
 		"proof":"https://www.credly.com/badges/a987d9f8-76b3-4526-80f4-10e48c722112/public_url"
-
 	},
 	{
 		"name":"NPTEL Certificate",
 		"description": "JOY OF COMPUTING USING PYTHON",
-		"badge":"https://",
+		"badge":"https://your-badge-url-here.png",
 		"proof":"https://archive.nptel.ac.in/content/noc/NOC25/SEM2/Ecertificates/106/noc25-cs103/Course/NPTEL25CS103S95430670710553575.pdf"
-
 	}
 ]
