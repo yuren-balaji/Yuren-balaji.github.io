@@ -7,17 +7,10 @@
 
 	},
 	{
-		"name":"ACP-JSD",
-		"description": "Jira Service Desk Administator",
-		"badge":"https://www.certmetrics.com/api/ob/image/atlassian/c/4/",
-		"proof":"https://www.certmetrics.com/atlassian/public/badge.aspx?i=4&t=c&d=2020-05-11&ci=AT00143196"
+		"name":"NPTEL Certificate",
+		"description": "JOY OF COMPUTING USING PYTHON",
+		"badge":"",
+		"proof":"https://archive.nptel.ac.in/content/noc/NOC25/SEM2/Ecertificates/106/noc25-cs103/Course/NPTEL25CS103S95430670710553575.pdf"
 
 	},
-	{
-		"name":"ACP-JCA",
-		"description": "Jira Cloud Administator",
-		"badge":"https://www.certmetrics.com/api/ob/image/atlassian/c/26/",
-		"proof":"https://www.certmetrics.com/atlassian/public/badge.aspx?i=26&t=c&d=2020-08-07&ci=AT00143196"
-		
-	}
 ]
